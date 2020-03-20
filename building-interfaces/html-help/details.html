@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Python Tkinter Details</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container" id="title-icon">
+            <img src="imgs/python-ktinker.png" alt="image-title" />
+        </div>
+
+        <div class="container">
+            <button class="accordion">Responding to Buttons</button>
+            <div class="panel">
+                <div class="container">
+                    <!-- Responding to Buttons -->
+                    <h2 style="margin-bottom: 2%; margin-top: 2%" id="buttons">Popular options</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Option:</th>
+                                <th scope="col">Description:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>activeBackground</td>
+                                <td>Background color when the cursor is over</td>
+                            </tr>
+                            <tr>
+                                <td>activeforeground</td>
+                                <td>Foreground color when the cursor is over</td>
+                            </tr>
+                            <tr>
+                                <td>Bd</td>
+                                <td>Border width in pixels (default: 2)</td>
+                            </tr>
+                            <tr>
+                                <td>Bg</td>
+                                <td>Background color</td>
+                            </tr>
+                            <tr>
+                                <td>command</td>
+                                <td>Function to call when clicked</td>
+                            </tr>
+                            <tr>
+                                <td>fg</td>
+                                <td>Foreground color</td>
+                            </tr>
+                            <tr>
+                                <td>font</td>
+                                <td>Font for button label</td>
+                            </tr>
+                            <tr>
+                                <td>height</td>
+                                <td>Button height in text lines, or pixels for images</td>
+                            </tr>
+                            <tr>
+                                <td>highlightcolor</td>
+                                <td>Border color when in focus</td>
+                            </tr>
+                            <tr>
+                                <td>image</td>
+                                <td>Image to be displayed instead of text</td>
+                            </tr>
+                            <tr>
+                                <td>justify</td>
+                                <td>Multiple text lines as LEFT, CENTER, or RIGHT</td>
+                            </tr>
+                            <tr>
+                                <td>padx</td>
+                                <td>Horizontial padding</td>
+                            </tr>
+                            <tr>
+                                <td>pady</td>
+                                <td>Vertical padding</td>
+                            </tr>
+                            <tr>
+                                <td>relief</td>
+                                <td>Border style of SUNKEN, RIDGE, RAISED or GROOVE</td>
+                            </tr>
+                            <tr>
+                                <td>state</td>
+                                <td>Enabled status of NORMAL or DISABLED</td>
+                            </tr>
+                            <tr>
+                                <td>underline</td>
+                                <td>Index number in text of character to underline</td>
+                            </tr>
+                            <tr>
+                                <td>width</td>
+                                <td>Button width in letters, or pixels for images</td>
+                            </tr>
+                            <tr>
+                                <td>wraplength</td>
+                                <td>Length at which to wrap text</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <button class="accordion">Displaying messages</button>
+            <div class="panel">
+                <div class="container">
+                    <!-- Displaying messages -->
+                    <h2 style="margin-bottom: 2%; margin-top: 2%">Types of message Boxes</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Method:</th>
+                                <th scope="col">Icon:</th>
+                                <th scope="col">Buttons:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>showinfo()</td>
+                                <td><img src="imgs/info.png" alt="info-icon" /></td>
+                                <td>OK</td>
+                            </tr>
+                            <tr>
+                                <td>showwarning()</td>
+                                <td><img src="imgs/warning.png" alt="warning-icon" /></td>
+                                <td>OK</td>
+                            </tr>
+                            <tr>
+                                <td>showerror()</td>
+                                <td><img src="imgs/stop.png" alt="error-icon" /></td>
+                                <td>OK</td>
+                            </tr>
+                            <tr>
+                                <td>askquestion()</td>
+                                <td><img src="imgs/question.png" alt="question-icon" /></td>
+                                <td>Yes (returns string 'yes')<br>No (returns string 'no')</td>
+                            </tr>
+                            <tr>
+                                <td>askokcancel()</td>
+                                <td><img src="imgs/question.png" alt="cancel-icon" /></td>
+                                <td>OK (returns 1)<br>Cancel (returns 0)</td>
+                            </tr>
+                            <tr>
+                                <td>askyesno()</td>
+                                <td><img src="imgs/question.png" alt="yes-no-icon" /></td>
+                                <td>Yes (returns 1)<br>No (returns 0)</td>
+                            </tr>
+                            <tr>
+                                <td>askretrycancel()</td>
+                                <td><img src="imgs/question.png" alt="retry-cancel-icon" /></td>
+                                <td>Retry (returns 1)<br>Cancel (returns 0)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <button class="accordion">Gathering entries</button>
+            <div class="panel">
+                <div class="container">
+                    <!-- Gathering entries -->
+                    <h2 style="margin-bottom: 2%; margin-top: 2%">Popular options</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Option:</th>
+                                <th scope="col">Description:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bd</td>
+                                <td>Border width in pixels (default is 2)</td>
+                            </tr>
+                            <tr>
+                                <td>Bg</td>
+                                <td>Background color</td>
+                            </tr>
+                            <tr>
+                                <td>fg</td>
+                                <td>Foreground color used to render the text</td>
+                            </tr>
+                            <tr>
+                                <td>font</td>
+                                <td>Font for the text</td>
+                            </tr>
+                            <tr>
+                                <td>highlightcolor</td>
+                                <td>Border color when in focus</td>
+                            </tr>
+                            <tr>
+                                <td>selectBackground</td>
+                                <td>Background color of selected text</td>
+                            </tr>
+                            <tr>
+                                <td>selectforeground</td>
+                                <td>Foreground color of selected text</td>
+                            </tr>
+                            <tr>
+                                <td>show</td>
+                                <td>Hide password characters with show = '*'</td>
+                            </tr>
+                            <tr>
+                                <td>state</td>
+                                <td>EnaBled status of NORMAL or DISABLED</td>
+                            </tr>
+                            <tr>
+                                <td>width</td>
+                                <td>Entry width in letters</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <button class="accordion">Listing options</button>
+            <div class="panel">
+                <div class="container">
+                    <!-- Listing options -->
+                    <h2 style="margin-bottom: 2%; margin-top: 2%">Popular options</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Option:</th>
+                                <th scope="col">Description:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bd</td>
+                                <td>Border width in pixels (default is 2)</td>
+                            </tr>
+                            <tr>
+                                <td>Bg</td>
+                                <td>Background color</td>
+                            </tr>
+                            <tr>
+                                <td>fg</td>
+                                <td>Foreground color used to render the text</td>
+                            </tr>
+                            <tr>
+                                <td>font</td>
+                                <td>Font for the text</td>
+                            </tr>
+                            <tr>
+                                <td>height</td>
+                                <td>Number of lines in list (default is 10)</td>
+                            </tr>
+                            <tr>
+                                <td>selectBackground</td>
+                                <td>Background color of selected text</td>
+                            </tr>
+                            <tr>
+                                <td>selectmode</td>
+                                <td>SINGLE (the default) or MULTIPLE selections</td>
+                            </tr>
+                            <tr>
+                                <td>width</td>
+                                <td>ListBox width in letters (default is 20)</td>
+                            </tr>
+                            <tr>
+                                <td>yscrollcommand</td>
+                                <td>Attach to a vertal scrollBar</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <button class="accordion">Summary</button>
+            <div class="panel">
+                <div class="container">
+                    <!-- Summary -->
+                    <h2 style="margin-bottom: 2%; margin-top: 2%">Things to remember</h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Summary:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><ul><li>The <b>tkinter</b> module can Be imported into a Python program to<br>
+                                provide attributes and methods for windowed applications</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>Every <b>tkinter</b> progam must begin by calling <b>Tk()</b> to create a<br>
+                                window and call its <b>mainloop()</b> method to capture events</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>The windows oBject's title is specified by its <b>title()</b> method</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>A laBel widget is created by specifying the name of its parent<br>
+                                container and its text as arguments to teh <b>LaBel()</b> constructor</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>Widgets can be added to an application using the <b>pack(), grid()</b><br>
+                                or <b>place()</b> geometry managers</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>A Button widget is created by specifying the name of its parent<br>
+                                container, its text, and the name of a function to call when the<br>
+                                user pushes it, as arguments to the <b>Button()</b> constructor</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>The <b>tkinter.messageBox</b> module can be imported into a Python<br>
+                                program to provide attriButes and methods for message Boxes</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>Message Boxes that ask the user to make a choice return a<br>
+                                value to the program for conditional Branching</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>The <b>Frame()</b> constructor creates a container in which multiple<br>
+                                widgets can Be grouped for Better positioning</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>The <b>Entry()</b> constructor creates a single line of text field whose<br>
+                                current contents can Be retrieved by its <b>get()</b> method</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>Items are added to a <b>ListBox</b> object By its <b>insert()</b> method, and<br>
+                                retrieved By sepcifying their index number to its <b>get()</b> method</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li><b>RadioButton</b> and <b>CheckButton</b> objects store values in the<br>
+                                <b>StringVar</b> or <b>IntVar</b> object nomiated by their <b>variable</b> attriBute</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>The <b>PhotoImage()</b> constructor creates an image oBject that has<br>
+                                a <b>suBsample()</b> method that can scale down the image</li></ul></td>
+                            </tr>
+                            <tr>
+                                <td><ul><li>Images can be added to <b>Button</b> and <b>Label</b> oBjects, emBedded in<br>
+                                <b>Text</b> objects, and painted on <b>Canvas</b> oBjects</li></ul></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
